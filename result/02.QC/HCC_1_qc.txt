@@ -1,0 +1,2 @@
+Sample	raw_reads	raw_bases	clean_reads	clean_bases	Q20	Q30
+HCC_1	40000	5097256	39996	5089855	96.14%	89.88%

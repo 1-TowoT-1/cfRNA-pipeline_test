@@ -1,0 +1,16 @@
+File name : /project/personal/chenzh/test/snakemake_test/result/01.Data/HCC_2_clean_R1.fq.gz
+Total bases : 668008
+Total reads : 4999
+% bases >=Q20 : 96.882
+% bases >=Q30 : 91.470
+Average read length : 133.628
+Read length range : 30 .. 150
+Quality range : 35 .. 74
+Phred range : 2 .. 41
+Offset : 33
+A : 150726
+T : 191719
+G : 132558
+C : 192983
+N : 22
+percent G-C content : 48.733

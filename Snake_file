@@ -1,0 +1,17 @@
+from snakemake.utils import min_version
+import os
+##### set minimum snakemake version #####
+
+min_version("7.25.0")
+
+###load rule
+include: "rule/Common.smk"
+include: "rule/QC.smk"
+include: "rule/Map.smk"
+include: "rule/Count.smk"
+include: "rule/DEG.smk"
+
+##### target rules #####
+rule all:
+    input:
+        get_final_output(),

@@ -1,0 +1,7 @@
+	STAR --genomeDir /project/personal/chenzh/genome/hg38_p13/ --readFilesIn /project/personal/chenzh/test/snakemake_test/result/03.MAP/tRNA/HCC_3.unmapped.tRNA.1.gz /project/personal/chenzh/test/snakemake_test/result/03.MAP/tRNA/HCC_3.unmapped.tRNA.2.gz --runThreadN 4 --outFileNamePrefix /project/personal/chenzh/test/snakemake_test/result/03.MAP/Genome/HCC_3_ --outSAMtype BAM Unsorted --readFilesCommand gzip -d -c --outFilterMultimapNmax 1
+	STAR version: 2.7.10b   compiled: 2022-11-01T09:53:26-04:00 :/home/dobin/data/STAR/STARcode/STAR.master/source
+Aug 11 16:31:56 ..... started STAR run
+Aug 11 16:31:56 ..... loading genome
+Aug 11 16:32:20 ..... started mapping
+Aug 11 16:32:23 ..... finished mapping
+Aug 11 16:32:27 ..... finished successfully

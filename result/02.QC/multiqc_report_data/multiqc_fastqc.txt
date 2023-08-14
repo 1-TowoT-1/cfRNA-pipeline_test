@@ -1,0 +1,13 @@
+Sample	Filename	File type	Encoding	Total Sequences	Total Bases	Sequences flagged as poor quality	Sequence length	%GC	total_deduplicated_percentage	avg_sequence_length	median_sequence_length	basic_statistics	per_base_sequence_quality	per_sequence_quality_scores	per_base_sequence_content	per_sequence_gc_content	per_base_n_content	sequence_length_distribution	sequence_duplication_levels	overrepresented_sequences	adapter_content
+HCC_1_R1	HCC_1_R1.fq.gz	Conventional base calls	Sanger / Illumina 1.9	20000.0	2.7 Mbp	0.0	30-150	48.0	94.81	134.7464	147	pass	pass	pass	warn	fail	pass	warn	pass	warn	pass
+HCC_1_R2	HCC_1_R2.fq.gz	Conventional base calls	Sanger / Illumina 1.9	20000.0	2.3 Mbp	0.0	30-150	47.0	89.83	119.9409	142	pass	pass	pass	fail	fail	pass	warn	pass	fail	warn
+HCC_1_clean_R1	HCC_1_clean_R1.fq.gz	Conventional base calls	Sanger / Illumina 1.9	19998.0	2.6 Mbp	0.0	22-150	48.0	94.8094809480948	134.6056105610561	147	pass	pass	pass	warn	fail	pass	warn	pass	warn	pass
+HCC_1_clean_R2	HCC_1_clean_R2.fq.gz	Conventional base calls	Sanger / Illumina 1.9	19998.0	2.3 Mbp	0.0	16-150	47.0	89.82898289828984	119.75767576757676	142	pass	pass	pass	fail	fail	pass	warn	pass	fail	warn
+HCC_2_R1	HCC_2_R1.fq.gz	Conventional base calls	Sanger / Illumina 1.9	5000.0	669.1 kbp	0.0	30-150	48.0	96.89999999999999	133.4538	147	pass	pass	pass	warn	fail	pass	warn	pass	warn	pass
+HCC_2_R2	HCC_2_R2.fq.gz	Conventional base calls	Sanger / Illumina 1.9	5000.0	616 kbp	0.0	30-150	48.0	91.86	123.4448	142	pass	pass	pass	fail	fail	pass	warn	pass	fail	warn
+HCC_2_clean_R1	HCC_2_clean_R1.fq.gz	Conventional base calls	Sanger / Illumina 1.9	4999.0	668 kbp	0.0	30-150	48.0	96.8993798759752	133.28445689137828	147	pass	pass	pass	warn	fail	pass	warn	pass	warn	pass
+HCC_2_clean_R2	HCC_2_clean_R2.fq.gz	Conventional base calls	Sanger / Illumina 1.9	4999.0	615.3 kbp	0.0	17-150	48.0	91.85837167433488	123.31406281256251	142	pass	pass	pass	fail	fail	pass	warn	pass	fail	warn
+HCC_3_R1	HCC_3_R1.fq.gz	Conventional base calls	Sanger / Illumina 1.9	5000.0	664 kbp	0.0	30-150	48.0	97.08	132.4176	147	pass	pass	pass	warn	fail	pass	warn	pass	warn	pass
+HCC_3_R2	HCC_3_R2.fq.gz	Conventional base calls	Sanger / Illumina 1.9	5000.0	610.5 kbp	0.0	30-150	47.0	91.47999999999999	122.3524	142	pass	pass	pass	fail	fail	pass	warn	pass	fail	warn
+HCC_3_clean_R1	HCC_3_clean_R1.fq.gz	Conventional base calls	Sanger / Illumina 1.9	5000.0	663.2 kbp	0.0	30-150	48.0	97.08	132.2946	147	pass	pass	pass	warn	fail	pass	warn	pass	warn	pass
+HCC_3_clean_R2	HCC_3_clean_R2.fq.gz	Conventional base calls	Sanger / Illumina 1.9	5000.0	610.1 kbp	0.0	29-150	47.0	91.47999999999999	122.2604	142	pass	pass	pass	fail	fail	pass	warn	pass	fail	warn

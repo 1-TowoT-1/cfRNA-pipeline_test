@@ -1,0 +1,75 @@
+#Project name
+Project: test
+#outdir
+project_dir: /project/personal/chenzh/test/snakemake_test
+
+
+
+#sample info
+samples:
+  HCC_1:
+    R1: /project/personal/chenzh/test/snakemake_test/Data/HCC_1.fq.gz
+    R2: /project/personal/chenzh/test/snakemake_test/Data/HCC_2.fq.gz
+  HCC_2:
+    R1: /project/personal/chenzh/test/snakemake_test/Data/HCC2_1.fq.gz
+    R2: /project/personal/chenzh/test/snakemake_test/Data/HCC2_2.fq.gz
+  HCC_3:
+    R1: /project/personal/chenzh/test/snakemake_test/Data/HCC3_1.fq.gz
+    R2: /project/personal/chenzh/test/snakemake_test/Data/HCC3_2.fq.gz
+
+
+
+#DEG info
+group:
+  HCC:
+    HCC_1,HCC_2
+  health:
+    HCC_3
+  HCC_1:
+    HCC_1
+  HCC_2:
+    HCC_2,HCC_3
+DEG_info:
+  - HCC_vs_health
+  - HCC_1_vs_HCC_2
+DEG_software: edgeR #DEseq2 or edgeR
+
+
+
+#"yes" or "no"
+#step_1:cutadapter, fastqc_qc, multiqc
+QC: yes
+#step_2:map
+MAP: yes
+#step_3:count, PCA, frangement_summary
+Count: yes
+#step_4:DEG, plot
+DEG: yes
+
+
+
+#常规参数
+Log2FC: 1.5
+FDR: 0.05
+
+
+
+#Basic configuration file input:
+#参考基因组目录:
+genome_path: /project/personal/chenzh/genome/hg38_p13/
+#参考基因组名字:
+genome_name: hg38_p13
+#script path for pipeline:
+scripts: /project/personal/chenzh/test/snakemake_test/script/
+
+
+
+
+#各数据库的index
+star_index: /project/personal/chenzh/genome/hg38_p13
+hisat2_index: /project/personal/chenzh/genome/hg38_p13/hg38_p13.fa
+rRNA_index: /project/personal/qizhuo/database/rRNAdb/human.rRNA
+tRNA_index: /project/personal/qizhuo/database/GtRNAdb/hg38-tRNAs
+miRNA_index: /project/personal/qizhuo/database/miRBase/hsa.hairpin
+piRNA_index: /project/personal/qizhuo/database/piRBase/hsa.v3.0
+UniVec_index: /project/personal/qizhuo/database/UniVec/UniVec

@@ -1,0 +1,13 @@
+Module	Section	Sample Name	Source
+FastQC	all_sections	HCC_2_clean_R1	/project/personal/chenzh/test/snakemake_test/result/02.QC/HCC_2_clean_R1_fastqc.zip
+FastQC	all_sections	HCC_3_R1	/project/personal/chenzh/test/snakemake_test/result/02.QC/HCC_3_R1_fastqc.zip
+FastQC	all_sections	HCC_2_clean_R2	/project/personal/chenzh/test/snakemake_test/result/02.QC/HCC_2_clean_R2_fastqc.zip
+FastQC	all_sections	HCC_1_R2	/project/personal/chenzh/test/snakemake_test/result/02.QC/HCC_1_R2_fastqc.zip
+FastQC	all_sections	HCC_3_clean_R2	/project/personal/chenzh/test/snakemake_test/result/02.QC/HCC_3_clean_R2_fastqc.zip
+FastQC	all_sections	HCC_2_R2	/project/personal/chenzh/test/snakemake_test/result/02.QC/HCC_2_R2_fastqc.zip
+FastQC	all_sections	HCC_1_R1	/project/personal/chenzh/test/snakemake_test/result/02.QC/HCC_1_R1_fastqc.zip
+FastQC	all_sections	HCC_2_R1	/project/personal/chenzh/test/snakemake_test/result/02.QC/HCC_2_R1_fastqc.zip
+FastQC	all_sections	HCC_3_clean_R1	/project/personal/chenzh/test/snakemake_test/result/02.QC/HCC_3_clean_R1_fastqc.zip
+FastQC	all_sections	HCC_1_clean_R2	/project/personal/chenzh/test/snakemake_test/result/02.QC/HCC_1_clean_R2_fastqc.zip
+FastQC	all_sections	HCC_1_clean_R1	/project/personal/chenzh/test/snakemake_test/result/02.QC/HCC_1_clean_R1_fastqc.zip
+FastQC	all_sections	HCC_3_R2	/project/personal/chenzh/test/snakemake_test/result/02.QC/HCC_3_R2_fastqc.zip

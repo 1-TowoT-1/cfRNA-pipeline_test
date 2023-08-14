@@ -1,0 +1,70 @@
+This is cutadapt 4.4 with Python 3.10.8
+Command line parameters: --cores 4 -a AGATCGGAAGAG -A AGATCGGAAGAG -q 20 -m 16 -o /project/personal/chenzh/test/snakemake_test/result/01.Data/HCC_3_clean_R1.fq.gz -p /project/personal/chenzh/test/snakemake_test/result/01.Data/HCC_3_clean_R2.fq.gz /project/personal/chenzh/test/snakemake_test/result/01.Data/HCC_3_R1.fq.gz /project/personal/chenzh/test/snakemake_test/result/01.Data/HCC_3_R2.fq.gz
+Processing paired-end reads on 4 cores ...
+Finished in 0.162 s (32.331 µs/read; 1.86 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:              5,000
+  Read 1 with adapter:                      92 (1.8%)
+  Read 2 with adapter:                      22 (0.4%)
+
+== Read fate breakdown ==
+Pairs that were too short:                   0 (0.0%)
+Pairs written (passing filters):         5,000 (100.0%)
+
+Total basepairs processed:     1,274,587 bp
+  Read 1:       664,018 bp
+  Read 2:       610,569 bp
+Quality-trimmed:                     513 bp (0.0%)
+  Read 1:           464 bp
+  Read 2:            49 bp
+Total written (filtered):      1,273,384 bp (99.9%)
+  Read 1:       663,241 bp
+  Read 2:       610,143 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: AGATCGGAAGAG; Type: regular 3'; Length: 12; Trimmed: 92 times
+
+Minimum overlap: 3
+No. of allowed errors:
+1-9 bp: 0; 10-12 bp: 1
+
+Bases preceding removed adapters:
+  A: 19.6%
+  C: 38.0%
+  G: 33.7%
+  T: 8.7%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	80	78.1	0	80
+4	11	19.5	0	11
+29	1	0.0	1	0 1
+
+
+=== Second read: Adapter 2 ===
+
+Sequence: AGATCGGAAGAG; Type: regular 3'; Length: 12; Trimmed: 22 times
+
+Minimum overlap: 3
+No. of allowed errors:
+1-9 bp: 0; 10-12 bp: 1
+
+Bases preceding removed adapters:
+  A: 9.1%
+  C: 50.0%
+  G: 31.8%
+  T: 9.1%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	16	78.1	0	16
+5	2	4.9	0	2
+56	1	0.0	1	0 1
+58	1	0.0	1	0 1
+89	1	0.0	1	0 1
+116	1	0.0	1	0 1
